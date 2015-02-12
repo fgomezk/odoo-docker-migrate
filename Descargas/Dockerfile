@@ -28,7 +28,7 @@ RUN sudo apt-get -y install python-pip
 
 #Instalamos pyserial, pyusb, qrcode para TPV y PosBox
 RUN sudo pip install pyserial
-RUN sudo pip --pre install pyusb
+RUN sudo pip install pyusb
 RUN sudo pip install qrcode
 
 #Bajamos phonenumbers, py-asterisk para asterisk
