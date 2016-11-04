@@ -1,0 +1,4 @@
+language: docker
+
+script:
+    - Dockerfile
